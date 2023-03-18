@@ -1,0 +1,171 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url("resttt.jfif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+
+
+}
+
+.login,
+.register {
+    width: 320px;
+    height: 420px;
+    background-color: transparent;
+    top: 45%;
+    left: 20%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    border: .25px solid  transparent;;
+    padding: 70px;
+    /* backface-visibility: hidden; */
+    
+}
+
+.register {
+    padding: 55px;
+}
+
+.icon {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: -50px;
+    left: 110px;
+    /* 50%-50 */
+    background-color:   rgb(130, 79, 32);
+   
+
+}
+
+.password,
+.username,
+.emailid
+ {
+    color: white;
+
+}
+.check {
+    color:rgb(122, 72, 26);
+
+}
+
+#password,
+#username,
+#emailid {
+    border: none;
+    border-bottom: 1px solid  rgb(130, 79, 32);
+    background: transparent;
+    outline: none;
+    color: white;
+
+}
+
+
+#reg,
+#logi {
+    background-color: rgb(130, 79, 32);
+    height: 35px;
+    width: 70px;
+    border-radius: 20px;
+    border-color: transparent;
+    color: white;
+}
+
+#logi:hover,
+#reg:hover {
+    background-color: rgb(172, 117, 77);
+    cursor: pointer;
+
+}
+
+/* .btn {
+    background-color: yellow;
+    height: 35px;
+    width: 250px;
+    border-radius: 20px;
+    font: 100;
+    position: absolute;
+    left: 35px;
+
+}
+
+.btn:hover {
+    background-color: red;
+    /* cursor: pointer; */
+/* } */
+
+/* .register {
+    transform: rotateY(180deg);
+} */
+
+/* .innerbox {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d;
+    transition: transform 1s;
+} */
+/* 
+nav {
+    width: 100%;
+    height: 60px;
+
+
+    background-color: yellow; */
+/* } */
+
+/* nav ul {
+    float: right;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    /* دى بتسنطر الكلمه انت مخلى الكلمات على بعد 60 فهنا بتخليها النص */
+    /* justify-content: center; */
+    /* دى اللى بتخلى الكلام متوسط يعنى الكلمه متبتديش من اليمين او الشمال دى بتحدد */
+    /* list-style: none;
+    margin-right: 45px;
+    margin-top: auto;
+} */ 
+
+nav ul li a {
+    color: rgb(130, 79, 32);
+    /* text-decoration: none;      لو عايزه اشيل الخط اللى تحت الكلمه (اللينك)  */
+    /* transition: 3s ease-out; لو عايزاللون يتحول ببطء */
+    padding: 0 15px;
+}
+
+nav ul li a:hover {
+    color: rgb(172, 117, 77);
+}
+
+footer {
+
+    width: 100%;
+    margin-top: 650px;
+    padding: 30px 0%;
+    display: flex;
+    background-color: rgb(24, 24, 24);
+}
+
+footer div {
+    text-align: center;
+    margin-top: -30px;
+    margin-left: 150px;
+    color: rgb(132, 81, 44) ;
+}
+
+footer a {
+    color: rgb(111, 62, 16);
+    display: block;
+    text-decoration: none;
+    padding: 5px;
+}
+
+footer a:hover {
+    color: rgb(172, 117, 77);
+}

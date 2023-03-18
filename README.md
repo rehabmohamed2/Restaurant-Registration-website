@@ -1,2 +1,8 @@
-# Restaurant-Registration-website
-Restaurant Registration website, Technology: JavaScript, HTML, Bootstrap, CSS, PHP, MySQL
+# Restaurant Landing Page
+
+- Used bootstrap tools & own styles.
+- Implemented responsive template.
+
+👉🏻 [Demo](https://yaninatrekhleb.github.io/restaurant-website/)
+
+![Demo](img/demo.gif)
